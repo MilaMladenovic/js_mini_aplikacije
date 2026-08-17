@@ -1,0 +1,67 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background: linear-gradient(135deg, #74ebd5, #acb6e5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+h1 {
+  margin-bottom: 15px;
+}
+
+#konvertor {
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(10px);
+  padding: 40px;
+  border-radius: 20px;
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 10px;
+  border: none;
+  margin-top: 10px;
+  cursor: pointer;
+  background: rgba(46, 60, 254, 0.2);
+}
+
+button:hover {
+  background: rgba(46, 60, 254, 0.3);
+  color: #333;
+}
+
+input{
+  display: block;
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+}
+
+#rezultatPolje  {
+  background-color: #ffffffb8;
+}
+
