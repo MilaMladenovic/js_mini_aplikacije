@@ -1,11 +1,73 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>JS mini aplikacije</title>
-</head>
-<body>
-  
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JS mini aplikacije</title>
+
+    <style>
+      body {
+        font-family: "Poppins", sans-serif;
+        background: linear-gradient(135deg, #74ebd5, #acb6e5);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+      }
+      .container {
+        text-align: center;
+      }
+      h1 {
+        margin-bottom: 30px;
+        color: #333;
+      }
+      .apps {
+        display: flex;
+        gap: 20px;
+        justify-content: center;
+        flex-wrap: wrap;
+      }
+      .app-card {
+        background: #fff;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        width: 200px;
+        text-decoration: none;
+        color: #333;
+        transition: transform 0.3s;
+      }
+      .app-card:hover {
+        transform: scale(1.05);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>ViziDev JS Mini Aplikacije</h1>
+      <div class="apps">
+        <a href="kalkulator.html" class="app-card">
+          <h2>Kalkulator</h2>
+          <p>Jednostavan kalkulator</p>
+        </a>
+        <a href="kviz.html" class="app-card">
+          <h2>Kviz</h2>
+          <p>Testiraj svoje znanje</p>
+        </a>
+        <a href="todo.html" class="app-card">
+          <h2>To-Do Kanban</h2>
+          <p>Organizuj svoje zadatke</p>
+        </a>
+        <a href="konvertor.html" class="app-card">
+          <h2>Konvertor u C i F</h2>
+          <p>Konvertuj temperaturu</p>
+        </a>
+        <a href="vreme.html" class="app-card">
+          <h2>Vremenska prognoza</h2>
+          <p>Odaberi grad</p>
+        </a>
+      </div>
+    </div>
+  </body>
 </html>
